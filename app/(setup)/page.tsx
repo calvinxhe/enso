@@ -18,7 +18,7 @@ const SetupPage = async () => {
   });
 
   if (server) {
-    return redirect(`/servers/${server.id}`);
+    return redirect(`https://enso-production.up.railway.app/servers/${server.id}`);
   }
 
   return <InitialModal />;
